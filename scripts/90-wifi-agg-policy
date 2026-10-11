@@ -1,0 +1,32 @@
+#!/bin/bash
+# 90-wifi-agg-policy — NetworkManager dispatcher 钩子: 连接/开机/漫游时按黑名单切换聚合策略
+# 黑名单AP(小米) → 11n_disable=6 稳定模式; 其他网络 → 全速模式
+# 参数已在目标状态时零动作。切换动作派生给独立进程, 不阻塞 NM。
+IFACE="$1"; ACTION="$2"
+[ "$ACTION" = "up" ] || exit 0
+case "$IFACE" in wl*) ;; *) exit 0 ;; esac
+BL=/etc/wifi-agg-blacklist
+LOG=/var/log/wifi-agg-policy.log
+
+LINK=$(iw dev "$IFACE" link 2>/dev/null)
+BSSID=$(echo "$LINK" | awk '/^Connected to/{print tolower($3); exit}')
+[ -n "$BSSID" ] || exit 0
+SSID=$(echo "$LINK" | awk -F'SSID: ' '/SSID:/{gsub(/\r/,"",$2); print $2; exit}')
+
+HIT=""
+[ -f "$BL" ] && while IFS= read -r entry; do
+  entry="${entry%%#*}"; entry=$(echo "$entry" | xargs)
+  [ -z "$entry" ] && continue
+  case "|$BSSID|$SSID|" in *"|$entry|"*) HIT="$entry"; break ;; esac
+done < "$BL"
+
+CUR=$(cat /sys/module/iwlwifi/parameters/11n_disable 2>/dev/null)
+if [ -n "$HIT" ]; then WANT=6; WHY="黑名单[$HIT]→稳定模式"; else WANT=0; WHY="非黑名单→全速模式"; fi
+
+if [ "$CUR" = "$WANT" ]; then
+  echo "$(date '+%F %T') $IFACE 连接 $BSSID($SSID): $WHY, 参数已符合(11n_disable=$CUR), 无动作" >> "$LOG"
+  exit 0
+fi
+echo "$(date '+%F %T') $IFACE 连接 $BSSID($SSID): $WHY → 切换参数 $CUR→$WANT" >> "$LOG"
+setsid nohup /usr/local/bin/wifi-agg-do-reload.sh "$WANT" </dev/null >>"$LOG" 2>&1 &
+exit 0

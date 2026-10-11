@@ -1,0 +1,11 @@
+===== 聚合原生(1MB, exp=-1, 11n_disable=0) — 与历史第1轮完全可比 =====
+[2K设备 "wlp1s0" 成功以 "321591f7-c1a5-4ca4-a47a-760b1540ffa9" 激活。
+参数: 11n_disable=0 exp=-1
+-- 15秒吞吐(无USB干扰) --
+-- 40秒崩溃观察 --
+近1分钟崩溃数: 2
+===== 收尾: 回稳定配置 =====
+[2K设备 "wlp1s0" 成功以 "321591f7-c1a5-4ca4-a47a-760b1540ffa9" 激活。
+最终: 11n_disable=6
+3 packets transmitted, 3 received, 0% packet loss, time 2052ms
+rtt min/avg/max/mdev = 0.907/27.631/80.048/37.066 ms

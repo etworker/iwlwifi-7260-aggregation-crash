@@ -1,0 +1,3518 @@
+2026-10-10 08:31:10 ===== watch 启动 pid=90355 dev=wlp1s0 gw=192.168.100.1 =====
+2026-10-10 10:54:00 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 10:54:00 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 6924973 bytes (31473 packets)
+	TX: 9114689 bytes (29367 packets)
+	signal: -55 dBm
+	rx bitrate: 650.0 MBit/s VHT-MCS 7 80MHz short GI VHT-NSS 2
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	5682
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-55 [-55, -58] dBm
+	signal avg:	-55 [-55, -58] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+1: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x1180F000 | flow_handler
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 10:54:00 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 10:54:01 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 10 10:54:01 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 2
+10月 10 10:54:01 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 4
+10月 10 10:54:01 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-10 10:54:01 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:c07d:b83:f754:d4e0/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+p2p-dev-wlp1s0：已断开
+	"p2p-dev-wlp1s0"
+	wifi-p2p, 硬件
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 10:54:01 OK  重连 wlp1s0
+2026-10-10 14:58:13 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 14:58:13 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 13435423 bytes (66720 packets)
+	TX: 14181462 bytes (60008 packets)
+	signal: -56 dBm
+	rx bitrate: 585.1 MBit/s VHT-MCS 6 80MHz short GI VHT-NSS 2
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	12828
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-56 [-56, -58] dBm
+	signal avg:	-56 [-57, -58] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+1: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 14:58:12 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 14:58:13 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 10 14:58:13 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 2
+10月 10 14:58:13 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 4
+10月 10 14:58:13 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-10 14:58:13 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:c07d:b83:f754:d4e0/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+p2p-dev-wlp1s0：已断开
+	"p2p-dev-wlp1s0"
+	wifi-p2p, 硬件
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 14:58:13 OK  重连 wlp1s0
+2026-10-10 15:38:47 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 15:38:47 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 15257839 bytes (74751 packets)
+	TX: 18318641 bytes (68214 packets)
+	signal: -56 dBm
+	rx bitrate: 585.1 MBit/s VHT-MCS 6 80MHz short GI VHT-NSS 2
+	tx bitrate: 292.6 MBit/s VHT-MCS 6 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	14723
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-56 [-56, -58] dBm
+	signal avg:	-55 [-55, -57] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+1: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 15:38:47 XPS13 kernel: iwlwifi 0000:01:00.0: iwl_trans_reclaim bad state = 0
+10月 10 15:38:47 XPS13 kernel: iwlwifi 0000:01:00.0: Failing on timeout while stopping DMA channel 8 [0x07fd0001]
+10月 10 15:38:47 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 10 15:38:47 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 2
+10月 10 15:38:47 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 4
+===== 快照结束 =====
+2026-10-10 15:38:47 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:c07d:b83:f754:d4e0/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+p2p-dev-wlp1s0：已断开
+	"p2p-dev-wlp1s0"
+	wifi-p2p, 硬件
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 15:38:47 OK  重连 wlp1s0
+2026-10-10 17:21:00 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:21:00 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 1187286 bytes (3968 packets)
+	TX: 2876892 bytes (4832 packets)
+	signal: -56 dBm
+	rx bitrate: 650.0 MBit/s VHT-MCS 7 80MHz short GI VHT-NSS 2
+	tx bitrate: 260.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	460
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-56 [-56, -59] dBm
+	signal avg:	-56 [-56, -59] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 17:21:00 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 17:21:00 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 10 17:21:00 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 4
+10月 10 17:21:00 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-10 17:21:00 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:39b9:fb88:8de8:bbab/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 17:21:00 OK  重连 wlp1s0
+2026-10-10 17:27:35 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:27:35 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 5268216 bytes (18061 packets)
+	TX: 12326725 bytes (20455 packets)
+	signal: -56 dBm
+	rx bitrate: 650.0 MBit/s VHT-MCS 7 80MHz short GI VHT-NSS 2
+	tx bitrate: 260.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2083
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-56 [-56, -59] dBm
+	signal avg:	-56 [-56, -59] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:27:35 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 17:27:35 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 17:27:35 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 17:27:36 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-10 17:27:36 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:39b9:fb88:8de8:bbab/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 17:27:36 OK  重连 wlp1s0
+2026-10-10 17:27:41 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:27:41 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 9967675 bytes (20376 packets)
+	TX: 13403965 bytes (22754 packets)
+	signal: -56 dBm
+	rx bitrate: 526.6 MBit/s VHT-MCS 6 80MHz VHT-NSS 2
+	tx bitrate: 260.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2255
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-56 [-56, -59] dBm
+	signal avg:	-55 [-55, -58] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:27:41 XPS13 kernel: iwlwifi 0000:01:00.0: iwl_trans_reclaim bad state = 0
+10月 10 17:27:41 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-10 17:27:41 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:27:46 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:27:46 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 34432977 bytes (29546 packets)
+	TX: 13713742 bytes (25332 packets)
+	signal: -55 dBm
+	rx bitrate: 520.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 2
+	tx bitrate: 260.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2497
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	39
+	signal:  	-55 [-55, -58] dBm
+	signal avg:	-55 [-55, -58] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x000003BF | l2p_mhvalid
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x000000EF | l2p_addr_match
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000015 | lmpm_pmg_sel
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x10C0C0D0 | flow_handler
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 17:27:45 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-10 17:27:46 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:27:51 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:27:51 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 50470074 bytes (35719 packets)
+	TX: 13994451 bytes (27657 packets)
+	signal: -53 dBm
+	rx bitrate: 29.3 MBit/s VHT-MCS 0 80MHz VHT-NSS 1
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2727
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	35
+	signal:  	-53 [-53, -56] dBm
+	signal avg:	-53 [-53, -55] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x000003BF | l2p_mhvalid
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x000000EF | l2p_addr_match
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000015 | lmpm_pmg_sel
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x10100818 | flow_handler
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 17:27:51 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-10 17:27:51 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:27:56 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:27:56 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 56337767 bytes (37903 packets)
+	TX: 14204881 bytes (29396 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2884
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	34
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-52 [-52, -53] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000015 | lmpm_pmg_sel
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x0FB40010 | flow_handler
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 17:27:56 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-10 17:27:56 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:01 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:01 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 63918182 bytes (40610 packets)
+	TX: 14418270 bytes (31131 packets)
+	signal: -52 dBm
+	rx bitrate: 6.5 MBit/s MCS 0
+	tx bitrate: 260.0 MBit/s VHT-MCS 3 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2979
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	45
+	signal:  	-53 [-53, -56] dBm
+	signal avg:	-52 [-52, -55] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: iwl_trans_reclaim bad state = 0
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: iwl_trans_reclaim bad state = 0
+10月 10 17:28:00 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-10 17:28:01 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:06 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:06 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64667722 bytes (40921 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -64 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	68
+	signal:  	-64 [-71, -64] dBm
+	signal avg:	-59 [-64, -60] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:28:02 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 17:28:02 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 17:28:02 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 17:28:02 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-10 17:28:06 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:11 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:11 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64686317 bytes (40958 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	117
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-54 [-56, -55] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:11 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:16 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:16 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64697741 bytes (40977 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	166
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-53 [-54, -54] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:16 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:21 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:21 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64701086 bytes (40989 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	215
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-55 [-57, -56] dBm
+	beacon signal avg:	-51 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:22 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:27 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:27 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64704292 bytes (41000 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	264
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-53 [-54, -54] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:27 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:32 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:32 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64706768 bytes (41011 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	313
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-53 [-54, -54] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:32 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:37 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:37 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64707600 bytes (41020 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	362
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-53 [-55, -54] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:37 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:39b9:fb88:8de8:bbab/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 17:28:37 OK  重连 wlp1s0
+2026-10-10 17:28:42 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:42 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64713351 bytes (41034 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	411
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-55 [-56, -55] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:42 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:47 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:47 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64717666 bytes (41050 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	461
+	signal:  	-64 [-71, -64] dBm
+	signal avg:	-58 [-62, -58] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:47 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:52 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:52 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64720126 bytes (41064 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	510
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-59 [-63, -59] dBm
+	beacon signal avg:	-51 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:52 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:28:57 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:28:57 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64732892 bytes (41096 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -64 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	558
+	signal:  	-64 [-71, -64] dBm
+	signal avg:	-61 [-66, -61] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:28:57 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 17:29:17 快照[网关连续失败 x3] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64745740 bytes (41141 packets)
+	TX: 14446499 bytes (31379 packets)
+	signal: -52 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2985
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	754
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-54 [-55, -55] dBm
+	beacon signal avg:	-52 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:29:17 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 17:29:37 快照[网关连续失败 x3] =====
+Not connected.
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+2: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Withdrawing address record for 2408:8207:2500:c6fa:39b9:fb88:8de8:bbab on wlp1s0.
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Withdrawing address record for 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e on wlp1s0.
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Leaving mDNS multicast group on interface wlp1s0.IPv6 with address 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e.
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Joining mDNS multicast group on interface wlp1s0.IPv6 with address fe80::f911:f67d:1b2e:f7d8.
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Registering new address record for fe80::f911:f67d:1b2e:f7d8 on wlp1s0.*.
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Withdrawing address record for fe80::f911:f67d:1b2e:f7d8 on wlp1s0.
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Leaving mDNS multicast group on interface wlp1s0.IPv6 with address fe80::f911:f67d:1b2e:f7d8.
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Interface wlp1s0.IPv6 no longer relevant for mDNS.
+10月 10 17:29:36 XPS13 NetworkManager[657]: <info>  [1791624576.5389] dhcp4 (wlp1s0): canceled DHCP transaction
+10月 10 17:29:36 XPS13 NetworkManager[657]: <info>  [1791624576.5389] dhcp4 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+10月 10 17:29:36 XPS13 NetworkManager[657]: <info>  [1791624576.5390] dhcp4 (wlp1s0): state changed no lease
+10月 10 17:29:36 XPS13 NetworkManager[657]: <info>  [1791624576.5401] dhcp6 (wlp1s0): canceled DHCP transaction
+10月 10 17:29:36 XPS13 NetworkManager[657]: <info>  [1791624576.5401] dhcp6 (wlp1s0): activation: beginning transaction (timeout in 45 seconds)
+10月 10 17:29:36 XPS13 NetworkManager[657]: <info>  [1791624576.5401] dhcp6 (wlp1s0): state changed no lease
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Withdrawing address record for 192.168.100.242 on wlp1s0.
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Leaving mDNS multicast group on interface wlp1s0.IPv4 with address 192.168.100.242.
+10月 10 17:29:36 XPS13 avahi-daemon[651]: Interface wlp1s0.IPv4 no longer relevant for mDNS.
+10月 10 17:29:36 XPS13 systemd-resolved[475]: wlp1s0: Bus client set default route setting: no
+10月 10 17:29:36 XPS13 systemd-resolved[475]: wlp1s0: Bus client reset DNS server list.
+10月 10 17:29:36 XPS13 wifi-heal.sh[243184]: 成功断开设备 "wlp1s0"。
+===== 快照结束 =====
+2026-10-10 17:29:37 ACT 重连 wlp1s0
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+wlp1s0：已断开
+	"Intel 7260"
+	1 连接可用
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 自动连接, 硬件, mtu 1500
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 17:29:37 OK  重连 wlp1s0
+===== 2026-10-10 17:49:56 快照[网关连续失败 x3] =====
+Not connected.
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+4: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:49:53 XPS13 systemd-resolved[475]: wlp1s0: Bus client set default route setting: no
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4694] device (wlp1s0): Activation: starting connection 'HomeNet_5G' (321591f7-c1a5-4ca4-a47a-760b1540ffa9)
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4707] device (wlp1s0): supplicant interface state: completed -> disconnected
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4721] device (wlp1s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4730] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4735] device (wlp1s0): Activation: (wifi) access point 'HomeNet_5G' has security, but secrets are required.
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4736] device (wlp1s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4738] sup-iface[2ee353de5eec0a14,3,wlp1s0]: wps: type pbc start...
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4751] device (wlp1s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4755] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+10月 10 17:49:53 XPS13 NetworkManager[657]: <info>  [1791625793.4765] device (wlp1s0): Activation: (wifi) connection 'HomeNet_5G' has security, and secrets exist.  No new secrets needed.
+10月 10 17:49:53 XPS13 systemd-resolved[475]: wlp1s0: Bus client reset DNS server list.
+10月 10 17:49:53 XPS13 wpa_supplicant[687]: wlp1s0: WPS-CANCEL
+10月 10 17:49:54 XPS13 systemd[1]: systemd-rfkill.service: Deactivated successfully.
+===== 快照结束 =====
+2026-10-10 17:49:56 ACT 重连 wlp1s0
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+wlp1s0：连接中（正在配置） 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 17:49:56 OK  重连 wlp1s0
+2026-10-10 17:50:26 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:50:26 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 3505977 bytes (2548 packets)
+	TX: 2572658 bytes (3264 packets)
+	signal: -55 dBm
+	rx bitrate: 520.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 2
+	tx bitrate: 260.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	319
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-55 [-55, -58] dBm
+	signal avg:	-55 [-55, -58] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+4: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:50:27 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 10 17:50:27 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 4
+10月 10 17:50:27 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-10 17:50:27 SKIP 冷却期: 重连 wlp1s0
+2026-10-10 17:50:32 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:50:32 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 5836703 bytes (3613 packets)
+	TX: 2707906 bytes (3931 packets)
+	signal: -56 dBm
+	rx bitrate: 585.0 MBit/s VHT-MCS 7 80MHz VHT-NSS 2
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	395
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	67
+	signal:  	-56 [-56, -59] dBm
+	signal avg:	-55 [-56, -58] dBm
+	beacon signal avg:	-51 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+4: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x000003BF | l2p_mhvalid
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x000000EF | l2p_addr_match
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000015 | lmpm_pmg_sel
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x10C8A8B8 | flow_handler
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 17:50:28 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 17:50:28 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-10 17:50:32 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 17:50:52 快照[网关连续失败 x3] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 5861479 bytes (3682 packets)
+	TX: 2707906 bytes (3931 packets)
+	signal: -51 dBm
+	rx bitrate: 6.0 MBit/s
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	395
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	262
+	signal:  	-51 [-51, -53] dBm
+	signal avg:	-56 [-57, -58] dBm
+	beacon signal avg:	-51 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+4: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:50:52 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 17:51:12 快照[网关连续失败 x3] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 5870639 bytes (3718 packets)
+	TX: 2707906 bytes (3931 packets)
+	signal: -52 dBm
+	rx bitrate: 650.0 MBit/s VHT-MCS 7 80MHz short GI VHT-NSS 2
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	395
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	458
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-56 [-58, -57] dBm
+	beacon signal avg:	-51 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+4: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:51:12 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:d644:1bef:8336:ed7d/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 17:51:12 OK  重连 wlp1s0
+===== 2026-10-10 17:51:32 快照[网关连续失败 x3] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 5875741 bytes (3758 packets)
+	TX: 2707906 bytes (3931 packets)
+	signal: -52 dBm
+	rx bitrate: 585.1 MBit/s VHT-MCS 6 80MHz short GI VHT-NSS 2
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	395
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	654
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-55 [-56, -56] dBm
+	beacon signal avg:	-51 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+4: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:51:32 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 17:51:52 快照[网关连续失败 x3] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 5879393 bytes (3797 packets)
+	TX: 2707906 bytes (3931 packets)
+	signal: -52 dBm
+	rx bitrate: 585.1 MBit/s VHT-MCS 6 80MHz short GI VHT-NSS 2
+	tx bitrate: 866.7 MBit/s VHT-MCS 9 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	395
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	850
+	signal:  	-52 [-52, -53] dBm
+	signal avg:	-56 [-59, -57] dBm
+	beacon signal avg:	-51 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+4: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 17:51:52 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 17:52:10 快照[网关连续失败 x3] =====
+Not connected.
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+4: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:52:08 XPS13 NetworkManager[657]: <info>  [1791625928.4778] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+10月 10 17:52:08 XPS13 NetworkManager[657]: <info>  [1791625928.4782] device (wlp1s0): Activation: (wifi) access point 'HomeNet_5G' has security, but secrets are required.
+10月 10 17:52:08 XPS13 NetworkManager[657]: <info>  [1791625928.4782] device (wlp1s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+10月 10 17:52:08 XPS13 NetworkManager[657]: <info>  [1791625928.4784] sup-iface[2ee353de5eec0a14,3,wlp1s0]: wps: type pbc start...
+10月 10 17:52:08 XPS13 NetworkManager[657]: <info>  [1791625928.4813] device (wlp1s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+10月 10 17:52:08 XPS13 NetworkManager[657]: <info>  [1791625928.4817] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+10月 10 17:52:08 XPS13 NetworkManager[657]: <info>  [1791625928.4829] device (wlp1s0): Activation: (wifi) connection 'HomeNet_5G' has security, and secrets exist.  No new secrets needed.
+10月 10 17:52:08 XPS13 wpa_supplicant[687]: wlp1s0: WPS-CANCEL
+10月 10 17:52:10 XPS13 NetworkManager[657]: <info>  [1791625930.5146] device (wlp1s0): supplicant interface state: disconnected -> scanning
+===== 快照结束 =====
+2026-10-10 17:52:10 SKIP 限流(本小时已6次): 重连 wlp1s0
+2026-10-10 17:58:21 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-10 17:58:21 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 33709475 bytes (26776 packets)
+	TX: 5533666 bytes (24054 packets)
+	signal: -56 dBm
+	rx bitrate: 650.0 MBit/s VHT-MCS 7 80MHz short GI VHT-NSS 2
+	tx bitrate: 260.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	2418
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-56 [-56, -59] dBm
+	signal avg:	-55 [-55, -59] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+4: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x10183840 | flow_handler
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 10 17:58:21 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 10 17:58:22 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 10 17:58:22 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 2
+10月 10 17:58:22 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 4
+10月 10 17:58:22 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-10 17:58:22 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 18:16:28 快照[网关连续失败 x3] =====
+Not connected.
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+5: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 18:16:26 XPS13 avahi-daemon[651]: Interface wlp1s0.IPv4 no longer relevant for mDNS.
+10月 10 18:16:26 XPS13 systemd-resolved[475]: wlp1s0: Bus client set default route setting: no
+10月 10 18:16:26 XPS13 systemd-resolved[475]: wlp1s0: Bus client reset DNS server list.
+10月 10 18:16:26 XPS13 NetworkManager[657]: <info>  [1791627386.1737] device (wlp1s0): Activation: starting connection 'HomeNet_5G' (321591f7-c1a5-4ca4-a47a-760b1540ffa9)
+10月 10 18:16:26 XPS13 NetworkManager[657]: <info>  [1791627386.1779] device (wlp1s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+10月 10 18:16:26 XPS13 NetworkManager[657]: <info>  [1791627386.1801] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+10月 10 18:16:26 XPS13 NetworkManager[657]: <info>  [1791627386.1819] device (wlp1s0): Activation: (wifi) access point 'HomeNet_5G' has security, but secrets are required.
+10月 10 18:16:26 XPS13 NetworkManager[657]: <info>  [1791627386.1819] device (wlp1s0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+10月 10 18:16:26 XPS13 NetworkManager[657]: <info>  [1791627386.1831] sup-iface[6168b71d757d75a4,4,wlp1s0]: wps: type pbc start...
+10月 10 18:16:26 XPS13 NetworkManager[657]: <info>  [1791627386.1879] device (wlp1s0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+10月 10 18:16:26 XPS13 wpa_supplicant[687]: wlp1s0: WPS-PBC-ACTIVE
+10月 10 18:16:26 XPS13 NetworkManager[657]: <info>  [1791627386.1890] device (wlp1s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+10月 10 18:16:26 XPS13 NetworkManager[657]: <info>  [1791627386.1893] device (wlp1s0): Activation: (wifi) connection 'HomeNet_5G' has security, and secrets exist.  No new secrets needed.
+10月 10 18:16:26 XPS13 wpa_supplicant[687]: wlp1s0: WPS-CANCEL
+10月 10 18:16:27 XPS13 systemd[1]: systemd-rfkill.service: Deactivated successfully.
+===== 快照结束 =====
+2026-10-10 18:16:28 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:30:43 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:30:37 XPS13 NetworkManager[657]: <info>  [1791642637.5617] radio killswitch /sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0/ieee80211/phy0/rfkill5 disappeared
+10月 10 22:30:37 XPS13 wpa_supplicant[687]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+10月 10 22:30:37 XPS13 wpa_supplicant[687]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+10月 10 22:30:37 XPS13 wpa_supplicant[687]: Could not read interface wlp1s0 flags: No such device
+10月 10 22:30:37 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+10月 10 22:30:42 XPS13 systemd[1]: systemd-rfkill.service: Deactivated successfully.
+===== 快照结束 =====
+2026-10-10 22:30:43 ACT 重连 wlp1s0
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 22:30:44 OK  重连 wlp1s0
+===== 2026-10-10 22:30:58 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:30:37 XPS13 wpa_supplicant[687]: wlp1s0: CTRL-EVENT-DSCP-POLICY clear_all
+10月 10 22:30:37 XPS13 wpa_supplicant[687]: Could not read interface wlp1s0 flags: No such device
+10月 10 22:30:37 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+10月 10 22:30:42 XPS13 systemd[1]: systemd-rfkill.service: Deactivated successfully.
+===== 快照结束 =====
+2026-10-10 22:30:58 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:31:12 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:31:12 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:31:26 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:31:26 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:31:40 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:31:40 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:31:54 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:31:54 ACT 重连 wlp1s0
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 22:31:54 OK  重连 wlp1s0
+===== 2026-10-10 22:32:08 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:32:08 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:32:22 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:32:22 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:32:36 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:32:36 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:32:50 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:32:50 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:33:04 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:33:04 ACT 重连 wlp1s0
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 22:33:04 OK  重连 wlp1s0
+===== 2026-10-10 22:33:18 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:33:18 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:33:32 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:33:32 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:33:46 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:33:46 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:34:00 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:34:00 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:34:14 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:34:14 ACT 重连 wlp1s0
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 22:34:14 OK  重连 wlp1s0
+===== 2026-10-10 22:34:28 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:34:28 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:34:42 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:34:42 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:34:56 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:34:56 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:35:10 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:35:10 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:35:24 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:35:24 ACT 重连 wlp1s0
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 22:35:24 OK  重连 wlp1s0
+===== 2026-10-10 22:35:38 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:35:38 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:35:52 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:35:52 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:36:06 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:36:06 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:36:20 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:36:21 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-10 22:36:35 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:36:35 ACT 重连 wlp1s0
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-10 22:36:35 OK  重连 wlp1s0
+===== 2026-10-10 22:36:49 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:36:49 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:37:03 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:37:02 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+===== 快照结束 =====
+2026-10-10 22:37:03 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:37:17 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:37:16 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+===== 快照结束 =====
+2026-10-10 22:37:17 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:37:31 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:37:31 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:37:45 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:37:45 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:37:59 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:37:59 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:38:13 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:38:13 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:38:27 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:38:27 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:38:41 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:38:41 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:38:55 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:38:55 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:39:09 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:39:09 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:39:23 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:39:23 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:39:37 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:39:37 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:39:51 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:39:51 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:40:05 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:40:03 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+===== 快照结束 =====
+2026-10-10 22:40:05 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:40:19 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:40:17 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+===== 快照结束 =====
+2026-10-10 22:40:19 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:40:33 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:40:33 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:40:47 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:40:47 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:41:01 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:41:01 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:41:15 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:41:15 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:41:29 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:41:29 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:41:43 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:41:43 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:41:57 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:41:57 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:42:11 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:42:11 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:42:25 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:42:26 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:42:40 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:42:40 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:42:54 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:42:54 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:43:08 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:43:05 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+===== 快照结束 =====
+2026-10-10 22:43:08 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:43:22 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:43:19 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+===== 快照结束 =====
+2026-10-10 22:43:22 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:43:36 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:43:36 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:43:50 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:43:50 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:44:04 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:44:04 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:44:18 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:44:18 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:44:32 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:44:32 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:44:46 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:44:46 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:45:00 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:45:00 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:45:14 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:45:14 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:45:28 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:45:28 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:45:42 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:45:42 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:45:56 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:45:56 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:46:10 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:46:06 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+===== 快照结束 =====
+2026-10-10 22:46:10 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:46:24 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+6: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 10 22:46:20 XPS13 kernel: module iwlwifi: .gnu.linkonce.this_module section size must match the kernel's built struct module size at run time
+10月 10 22:46:21 XPS13 systemd[1]: systemd-rfkill.service: Deactivated successfully.
+===== 快照结束 =====
+2026-10-10 22:46:24 SKIP 限流(本小时已6次): 重连 wlp1s0
+===== 2026-10-10 22:46:38 快照[网关连续失败 x3] =====
+command failed: No such device (-19)
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+6: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-10 22:46:38 SKIP 限流(本小时已6次): 重连 wlp1s0
+2026-10-11 00:08:08 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-11 00:08:08 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 2058710 bytes (1488 packets)
+	TX: 102275 bytes (754 packets)
+	signal: -60 dBm
+	rx bitrate: 390.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	136
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-60 [-62, -60] dBm
+	signal avg:	-59 [-61, -59] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+6: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+8: phy2: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x000000EF | l2p_addr_match
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000005 | lmpm_pmg_sel
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x0FD8C8F8 | flow_handler
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 11 00:08:07 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 11 00:08:08 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 11 00:08:08 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-11 00:08:08 ACT 重连 wlp1s0
+wlx502b73d1728b：已连接 到 HomeNet_5G 1
+	"Realtek Wi-Fi"
+	wifi (rtw_8821cu), 50:2B:73:D1:72:8B, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.222/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa::a04/128
+	inet6 2408:8207:2500:c6fa:4f75:763f:f22d:b4af/64
+	inet6 2408:8207:2500:c6fa:8a81:b6a5:4be9:d50c/64
+	inet6 fe80::c902:9b67:f75d:952c/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::a04/128 metric 600
+
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 601
+	route4 default via 192.168.100.1 metric 601
+	inet6 2408:8207:2500:c6fa:396f:4a6:ae0b:e8e6/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 601
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 601
+	route6 2408:8207:2500:c6fa::bc3/128 metric 601
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlx502b73d1728b
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlx502b73d1728b
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-11 00:08:08 OK  重连 wlp1s0
+2026-10-11 00:22:48 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-11 00:22:48 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 521846 bytes (411 packets)
+	TX: 61504 bytes (279 packets)
+	signal: -64 dBm
+	rx bitrate: 520.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	19
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-64 [-64, -64] dBm
+	signal avg:	-63 [-63, -64] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+6: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10: phy4: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x000000E7 | l2p_addr_match
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000005 | lmpm_pmg_sel
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x0E08E8F8 | flow_handler
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 11 00:22:48 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 11 00:22:48 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 11 00:22:48 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-11 00:22:49 ACT 重连 wlp1s0
+wlx502b73d1728b：已连接 到 HomeNet_5G 1
+	"Realtek Wi-Fi"
+	wifi (rtw_8821cu), 50:2B:73:D1:72:8B, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.222/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa::a04/128
+	inet6 2408:8207:2500:c6fa:4f75:763f:f22d:b4af/64
+	inet6 2408:8207:2500:c6fa:8a81:b6a5:4be9:d50c/64
+	inet6 fe80::c902:9b67:f75d:952c/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::a04/128 metric 600
+
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 601
+	route4 default via 192.168.100.1 metric 601
+	inet6 2408:8207:2500:c6fa:8783:931a:d0e0:ce88/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 601
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 601
+	route6 2408:8207:2500:c6fa::bc3/128 metric 601
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlx502b73d1728b
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlx502b73d1728b
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-11 00:22:49 OK  重连 wlp1s0
+2026-10-11 00:22:54 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-11 00:22:54 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 68862094 bytes (23086 packets)
+	TX: 356238 bytes (2863 packets)
+	signal: -62 dBm
+	rx bitrate: 390.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 2
+	tx bitrate: 130.0 MBit/s VHT-MCS 3 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	182
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	67
+	signal:  	-62 [-63, -62] dBm
+	signal avg:	-62 [-62, -62] dBm
+	beacon signal avg:	-62 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+6: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10: phy4: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 11 00:22:49 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 11 00:22:49 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-11 00:22:54 SKIP 冷却期: 重连 wlp1s0
+2026-10-11 00:28:45 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-11 00:28:45 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 99701161 bytes (32906 packets)
+	TX: 414437 bytes (3367 packets)
+	signal: -60 dBm
+	rx bitrate: 390.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 2
+	tx bitrate: 175.5 MBit/s VHT-MCS 4 80MHz VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	92
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-60 [-61, -60] dBm
+	signal avg:	-60 [-61, -60] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+6: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+12: phy6: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 11 00:28:44 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 11 00:28:45 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 11 00:28:45 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-11 00:28:45 ACT 重连 wlp1s0
+wlx502b73d1728b：已连接 到 HomeNet_5G 1
+	"Realtek Wi-Fi"
+	wifi (rtw_8821cu), 50:2B:73:D1:72:8B, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.222/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa::a04/128
+	inet6 2408:8207:2500:c6fa:4f75:763f:f22d:b4af/64
+	inet6 2408:8207:2500:c6fa:8a81:b6a5:4be9:d50c/64
+	inet6 fe80::c902:9b67:f75d:952c/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::a04/128 metric 600
+
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 601
+	route4 default via 192.168.100.1 metric 601
+	inet6 2408:8207:2500:c6fa:c9a7:d20a:79c5:13e3/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 601
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 601
+	route6 2408:8207:2500:c6fa::bc3/128 metric 601
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlx502b73d1728b
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlx502b73d1728b
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-11 00:28:45 OK  重连 wlp1s0
+2026-10-11 00:29:38 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-11 00:29:38 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 64829471 bytes (21508 packets)
+	TX: 302613 bytes (2393 packets)
+	signal: -60 dBm
+	rx bitrate: 390.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 2
+	tx bitrate: 195.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	81
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-60 [-60, -60] dBm
+	signal avg:	-60 [-60, -60] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+6: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+13: phy7: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x17A42848 | flow_handler
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 11 00:29:38 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 11 00:29:39 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 11 00:29:39 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-11 00:29:39 SKIP 冷却期: 重连 wlp1s0
+2026-10-11 00:29:44 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-11 00:29:44 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 98221019 bytes (33850 packets)
+	TX: 594270 bytes (4877 packets)
+	signal: -60 dBm
+	rx bitrate: 390.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 2
+	tx bitrate: 175.5 MBit/s VHT-MCS 4 80MHz VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	475
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	45
+	signal:  	-60 [-60, -60] dBm
+	signal avg:	-60 [-60, -60] dBm
+	beacon signal avg:	-58 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+6: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+13: phy7: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 11 00:29:41 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 11 00:29:42 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+===== 快照结束 =====
+2026-10-11 00:29:44 SKIP 冷却期: 重连 wlp1s0
+2026-10-11 00:29:49 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-11 00:29:49 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 171129863 bytes (59748 packets)
+	TX: 1123738 bytes (9519 packets)
+	signal: -60 dBm
+	rx bitrate: 390.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 2
+	tx bitrate: 195.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	1263
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	88
+	signal:  	-60 [-60, -60] dBm
+	signal avg:	-60 [-60, -60] dBm
+	beacon signal avg:	-58 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+6: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+13: phy7: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-11 00:29:49 ACT 重连 wlp1s0
+wlx502b73d1728b：已连接 到 HomeNet_5G 1
+	"Realtek Wi-Fi"
+	wifi (rtw_8821cu), 50:2B:73:D1:72:8B, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.222/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa::a04/128
+	inet6 2408:8207:2500:c6fa:4f75:763f:f22d:b4af/64
+	inet6 2408:8207:2500:c6fa:8a81:b6a5:4be9:d50c/64
+	inet6 fe80::c902:9b67:f75d:952c/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::a04/128 metric 600
+
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 601
+	route4 default via 192.168.100.1 metric 601
+	inet6 2408:8207:2500:c6fa:5da5:b8a6:7100:f136/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 601
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 601
+	route6 2408:8207:2500:c6fa::bc3/128 metric 601
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlx502b73d1728b
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlx502b73d1728b
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-11 00:29:49 OK  重连 wlp1s0
+2026-10-11 00:35:32 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-11 00:35:32 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 439903965 bytes (145504 packets)
+	TX: 5521106 bytes (16457 packets)
+	signal: -61 dBm
+	rx bitrate: 390.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 2
+	tx bitrate: 130.0 MBit/s VHT-MCS 3 80MHz short GI VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	54
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-61 [-62, -61] dBm
+	signal avg:	-61 [-62, -61] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+15: phy9: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x15041745 | timestamp
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x083C78A8 | flow_handler
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: Fseq Registers:
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ERROR_CODE
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 11 00:35:31 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 11 00:35:32 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 11 00:35:32 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 4
+10月 11 00:35:32 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 6
+===== 快照结束 =====
+2026-10-11 00:35:32 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:dd27:b703:57cc:47db/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-11 00:35:32 OK  重连 wlp1s0
+2026-10-11 00:36:13 指纹: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+===== 2026-10-11 00:36:13 快照[内核指纹] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 519071499 bytes (175632 packets)
+	TX: 14543733 bytes (27476 packets)
+	signal: -62 dBm
+	rx bitrate: 468.0 MBit/s VHT-MCS 5 80MHz VHT-NSS 2
+	tx bitrate: 117.0 MBit/s VHT-MCS 3 80MHz VHT-NSS 1
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	1324
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	0
+	signal:  	-62 [-62, -62] dBm
+	signal avg:	-62 [-62, -62] dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+15: phy9: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_INIT_VERSION
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVIO_INIT_VERSION
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_OTP_VERSION
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_TOP_CONTENT_VERSION
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_ALIVE_TOKEN
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVI_ID
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CNVR_ID
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVI_AUX_MISC_CHIP
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_AUX_MISC_CHIP
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_DIG_DCDC_VTRIM
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | CNVR_SCU_SD_REGS_SD_REG_ACTIVE_VDIG_MIRROR
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_PREV_CNVIO_INIT_VERSION
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_WIFI_FSEQ_VERSION
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_BT_FSEQ_VERSION
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: 0x00000000 | FSEQ_CLASS_TP_VERSION
+10月 11 00:36:13 XPS13 kernel: iwlwifi 0000:01:00.0: Collecting data: trigger 2 fired.
+10月 11 00:36:13 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 0
+10月 11 00:36:13 XPS13 kernel: wlp1s0: HW problem - can not stop rx aggregation for a4:a9:30:e2:76:da tid 4
+===== 快照结束 =====
+2026-10-11 00:36:13 SKIP 冷却期: 重连 wlp1s0
+===== 2026-10-11 16:44:01 快照[网关连续失败 x3] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 416947706 bytes (1791551 packets)
+	TX: 3726063932 bytes (3124785 packets)
+	signal: -58 dBm
+	rx bitrate: 390.0 MBit/s VHT-MCS 4 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	266290
+	tx failed:	0
+	beacon loss:	0
+	beacon rx:	561709
+	signal:  	-58 [-58, -59] dBm
+	signal avg:	-61 [-61, -61] dBm
+	beacon signal avg:	-58 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+16: phy10: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-11 16:44:01 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:f7f6:36ca:c43a:69b0/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-11 16:44:01 OK  重连 wlp1s0
+===== 2026-10-11 17:11:58 快照[网关连续失败 x3] =====
+Connected to a4:a9:30:e2:76:da (on wlp1s0)
+	SSID: HomeNet_5G
+	freq: 5220
+	RX: 422857735 bytes (1820248 packets)
+	TX: 3765194195 bytes (3162005 packets)
+	signal: -71 dBm
+	rx bitrate: 520.0 MBit/s VHT-MCS 5 80MHz short GI VHT-NSS 2
+
+	bss flags:	short-preamble short-slot-time
+	dtim period:	1
+	beacon int:	100
+	tx retries:	270197
+	tx failed:	1
+	beacon loss:	0
+	beacon rx:	578025
+	signal:  	-71 [-71, -71] dBm
+	signal avg:	-63 [-63, -63] dBm
+	beacon signal avg:	-58 dBm
+	beacon interval:100
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+16: phy10: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+-- No entries --
+===== 快照结束 =====
+2026-10-11 17:11:58 ACT 重连 wlp1s0
+wlp1s0：已连接 到 HomeNet_5G
+	"Intel 7260"
+	wifi (iwlwifi), 0C:8B:FD:5B:16:B2, 硬件, mtu 1500
+	ip4 默认, ip6 默认
+	inet4 192.168.100.242/24
+	route4 192.168.100.0/24 metric 600
+	route4 default via 192.168.100.1 metric 600
+	route4 169.254.0.0/16 metric 1000
+	inet6 2408:8207:2500:c6fa:f7f6:36ca:c43a:69b0/64
+	inet6 2408:8207:2500:c6fa::bc3/128
+	inet6 2408:8207:2500:c6fa:6ff5:7f30:d148:a07e/64
+	inet6 fe80::f911:f67d:1b2e:f7d8/64
+	route6 fe80::/64 metric 1024
+	route6 2408:8207:2500:c6fa::/64 metric 600
+	route6 default via fe80::a6a9:30ff:fee2:76da metric 600
+	route6 2408:8207:2500:c6fa::bc3/128 metric 600
+
+docker0：连接（外部） 到 docker0
+	"docker0"
+	bridge, 3E:3C:DE:25:83:69, 软件, mtu 1500
+	inet4 172.17.0.1/16
+	route4 172.17.0.0/16 metric 0
+
+lo：未托管
+	"lo"
+	loopback (unknown), 00:00:00:00:00:00, 软件, mtu 65536
+
+DNS configuration:
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+	interface: wlp1s0
+
+	servers: fe80::a6a9:30ff:fee2:76da
+	interface: wlp1s0
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+	servers: 192.168.100.1
+
+	servers: fe80::a6a9:30ff:fee2:76da
+
+使用 "nmcli device show" 获取关于已知设备的完整信息，以及 
+"nmcli connection show" 获取活动连接配置集的概述。
+
+完整的用法细节，可参考 nmcli(1) 和 nmcli-examples(7) 手册页。
+2026-10-11 17:11:58 OK  重连 wlp1s0
+2026-10-11 20:29:40 ===== watch 启动 pid=1439056 dev=wlp1s0 gw=192.168.100.1 =====

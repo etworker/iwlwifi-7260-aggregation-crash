@@ -1,0 +1,26 @@
+# ── 大文件/可再下载：不入库 ──
+/archive/
+linux-6.8.tar.xz
+linux-source-6.8.0.deb
+
+# ── 工作日志（文章引用的证据是 ref/logs/，此目录为工作副本，含本机标识信息）──
+/logs/
+
+# ── 编译产物（源码在 src/dkms-src，可随时重编）──
+*.ko
+*.o
+*.cmd
+*.o.d
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+Module.symvers
+modules.order
+.tmp_versions/
+*.dwo
+
+# ── 编辑器/系统 ──
+*.swp
+*~
+.DS_Store

@@ -1,0 +1,13 @@
+10月 08 15:48:05 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 08 17:07:32 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 08 17:55:12 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 08 19:40:44 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 08 19:57:16 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 09 11:52:22 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 09 13:25:56 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 09 15:02:22 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 09 16:02:24 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 09 16:07:27 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 09 18:00:45 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 09 19:40:49 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.
+10月 09 19:54:28 XPS13 kernel: Rekeying PTK for STA 00:be:75:73:7b:e3 but driver can't safely do that.

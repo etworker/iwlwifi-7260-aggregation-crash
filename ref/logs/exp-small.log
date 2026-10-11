@@ -1,0 +1,29 @@
+===== E3: 16K档 (agg开 exp=1) =====
+[2K设备 "wlp1s0" 成功以 "321591f7-c1a5-4ca4-a47a-760b1540ffa9" 激活。
+参数: 11n_disable=0 exp=1 density=-1
+-- 大包 x3 --
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+-- 15秒吞吐 --
+-- 20秒崩溃观察 --
+近40秒崩溃数: 0
+===== E4: 8K档 (agg开 exp=0) =====
+[2K设备 "wlp1s0" 成功以 "321591f7-c1a5-4ca4-a47a-760b1540ffa9" 激活。
+参数: 11n_disable=0 exp=0 density=-1
+-- 大包 x3 --
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+-- 15秒吞吐 --
+-- 20秒崩溃观察 --
+近40秒崩溃数: 1
+===== E5: 密度维度 (agg开 exp=-1 density=7) =====
+[2K设备 "wlp1s0" 成功以 "321591f7-c1a5-4ca4-a47a-760b1540ffa9" 激活。
+参数: 11n_disable=0 exp=-1 density=7
+-- 大包 x3 --
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+-- 15秒吞吐 --
+-- 20秒崩溃观察 --
+近40秒崩溃数: 3
+===== 收尾: 回到已知稳定配置 =====
+[2K设备 "wlp1s0" 成功以 "321591f7-c1a5-4ca4-a47a-760b1540ffa9" 激活。
+最终: 11n_disable=6 exp=-1
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 0.932/1.051/1.277/0.159 ms

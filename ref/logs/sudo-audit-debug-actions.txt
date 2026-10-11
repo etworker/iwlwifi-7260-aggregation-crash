@@ -1,0 +1,8 @@
+10月 09 21:46:13 XPS13 sudo[4700]: etworker : PWD=/home/etworker/.zcode/workspace/default ; USER=root ; COMMAND=/usr/bin/rm -f /etc/modprobe.d/iwlwifi-stability.conf /etc/modprobe.d/iwlwifi-swcrypto.conf
+10月 09 21:46:14 XPS13 sudo[4733]: etworker : PWD=/home/etworker/.zcode/workspace/default ; USER=root ; COMMAND=/usr/sbin/modprobe -r iwlmvm iwlwifi
+10月 09 21:46:14 XPS13 sudo[4750]: etworker : PWD=/home/etworker/.zcode/workspace/default ; USER=root ; COMMAND=/usr/sbin/modprobe iwlwifi
+10月 10 00:14:12 XPS13 sudo[39130]: etworker : PWD=/home/etworker/.zcode/workspace/default ; USER=root ; COMMAND=/usr/bin/mv /lib/firmware/iwlwifi-7260-17.ucode /lib/firmware/iwlwifi-7260-17.ucode.bak
+10月 10 00:14:13 XPS13 sudo[39161]: etworker : PWD=/home/etworker/.zcode/workspace/default ; USER=root ; COMMAND=/usr/sbin/modprobe -r iwlmvm iwlwifi
+10月 10 00:14:13 XPS13 sudo[39187]: etworker : PWD=/home/etworker/.zcode/workspace/default ; USER=root ; COMMAND=/usr/sbin/modprobe iwlwifi
+10月 10 00:24:08 XPS13 sudo[3728]: etworker : TTY=pts/0 ; PWD=/usr/lib/firmware ; USER=root ; COMMAND=/usr/sbin/modprobe -r iwlwifi
+10月 10 00:24:15 XPS13 sudo[3766]: etworker : TTY=pts/0 ; PWD=/usr/lib/firmware ; USER=root ; COMMAND=/usr/sbin/modprobe iwlwifi

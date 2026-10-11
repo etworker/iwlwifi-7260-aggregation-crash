@@ -1,0 +1,17 @@
+10月 10 17:27:35 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:37 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:38 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:40 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:41 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:42 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:43 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:44 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:45 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:47 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:48 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:50 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:52 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:55 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:56 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:27:59 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.
+10月 10 17:28:02 XPS13 kernel: iwlwifi 0000:01:00.0: Microcode SW error detected.  Restarting 0x2000000.

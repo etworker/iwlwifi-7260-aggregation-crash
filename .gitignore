@@ -24,3 +24,7 @@ modules.order
 *.swp
 *~
 .DS_Store
+
+# ── Python ──
+__pycache__/
+*.pyc

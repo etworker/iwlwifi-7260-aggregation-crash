@@ -16,22 +16,30 @@ BLUE, RED, GREEN, ORANGE = '#2b6cb0', '#c53030', '#2f855a', '#dd6b20'
 # ---- 图1: 每日崩溃次数(真实journalctl计数) ----
 days = ['10/3','10/4','10/5','10/6','10/7','10/8','10/9','10/10','10/11']
 counts = [259, 2023, 447, 161, 515, 80, 117, 25, 9]
-fig, ax = plt.subplots(figsize=(10, 5))
-bars = ax.bar(days, counts, color=[RED if c > 500 else ORANGE if c > 100 else GREEN for c in counts], alpha=0.85)
-ax.set_yscale('log'); ax.set_ylim(1, 4000)
+colors = ['#c0392b' if c > 500 else '#e67e22' if c > 100 else '#27ae60' for c in counts]
+
+fig, ax = plt.subplots(figsize=(11, 6))
+bars = ax.bar(days, counts, color=colors, alpha=0.88, width=0.62)
+ax.set_yscale('log'); ax.set_ylim(5, 9000)
+ax.set_ylabel('固件崩溃日志行数（log 刻度）', fontsize=12)
+ax.set_title('iwlwifi 固件崩溃（Microcode SW error）按日统计——10-03 机器复用当天开始，当晚进入风暴', fontsize=13)
 for b, c in zip(bars, counts):
-    ax.text(b.get_x()+b.get_width()/2, c*1.15, str(c), ha='center', fontsize=11, fontweight='bold')
-ax.set_ylabel('固件崩溃日志行数 (log)', fontsize=12)
-ax.set_title('图1  iwlwifi 固件崩溃(Microcode SW error)按日统计——2026-10-3 机器复用当天开始, 当晚进入风暴', fontsize=12.5)
-ax.annotate('10/3 晚: 机器重新启用\n当天即出现崩溃', xy=(0, 259), xytext=(0.2, 1200),
-            arrowprops=dict(arrowstyle='->'), fontsize=10)
-ax.annotate('10/4 峰值: ~2000行/天\n≈ 每小时崩溃数十次', xy=(1, 2023), xytext=(2.3, 2400),
-            arrowprops=dict(arrowstyle='->'), fontsize=10)
-ax.annotate('10/10 17:19 swcrypto=1\n(无效, 见图2)', xy=(7, 25), xytext=(5.6, 800),
-            arrowprops=dict(arrowstyle='->'), fontsize=10)
-ax.annotate('10/10 17:49 禁聚合\n10/11 凌晨仅剩实验自致', xy=(8, 9), xytext=(7.0, 300),
-            arrowprops=dict(arrowstyle='->'), fontsize=10)
-ax.grid(axis='y', alpha=0.3)
+    ax.text(b.get_x()+b.get_width()/2, c*1.12, str(c), ha='center', fontsize=11, fontweight='bold')
+
+bbox = dict(boxstyle='round,pad=0.35', facecolor='white', edgecolor='#95a5a6', alpha=0.92)
+arrow = dict(arrowstyle='->', color='#555555', linewidth=1.2)
+
+ax.annotate('10/3 晚：机器复用\n当天开始崩溃', xy=(-0.12, 300), xytext=(-0.05, 4200),
+            fontsize=10.5, bbox=bbox, arrowprops=arrow, ha='center')
+ax.annotate('10/4 峰值 ~2000 行/天\n≈ 每小时崩溃数十次', xy=(1.3, 2100), xytext=(3.0, 4200),
+            fontsize=10.5, bbox=bbox, arrowprops=arrow, ha='center')
+ax.annotate('10/10 17:19\nswcrypto=1（无效）', xy=(7.12, 18), xytext=(5.0, 1300),
+            fontsize=10.5, bbox=bbox, arrowprops=arrow, ha='center')
+ax.annotate('10/10 17:49 禁聚合\n此后仅剩实验自致崩溃', xy=(8.22, 9), xytext=(8.15, 2200),
+            fontsize=10.5, bbox=bbox, arrowprops=arrow, ha='center')
+
+ax.grid(axis='y', alpha=0.3, which='both')
+ax.set_axisbelow(True)
 plt.tight_layout(); plt.savefig(f'{OUT}/fig1-daily-crashes.png', dpi=150); plt.close()
 
 # ---- 图2: 死亡循环(第1轮压测, 17次崩溃精确时刻) ----

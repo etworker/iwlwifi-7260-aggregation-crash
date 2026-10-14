@@ -6,7 +6,11 @@
 """
 import sys, os, shutil
 
-ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dkms-src/iwlwifi-ampdu-tune-6.8')
+import sys
+# 用法: apply-ampdu-patch.py [目标iwlwifi源码目录]
+# 缺省: 本文件同级的 dkms-src/iwlwifi-ampdu-tune-6.8
+ROOT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), 'dkms-src/iwlwifi-ampdu-tune-6.8')
 
 def guard(path, old, new, label):
     p = os.path.join(ROOT, path)
@@ -66,5 +70,10 @@ ht_new = '''	{
 	}
 '''
 guard('iwl-eeprom-parse.c', ht_old, ht_new, 'eeprom-parse: HT factor/density 钳制')
+
+# 4) 三个子目录 Makefile: 树内专用包含路径改为外置(M=)可用形式
+for mk in ('mvm/Makefile', 'dvm/Makefile', 'mei/Makefile'):
+    guard(mk, 'ccflags-y += -I $(srctree)/$(src)/../', 'ccflags-y += -I$(src)/../',
+          f'{mk}: 外置编译包含路径')
 
 print("补丁全部应用完毕")

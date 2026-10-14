@@ -18,7 +18,15 @@ apt-get install -y dkms gcc-12 >/tmp/ampdu-apt.log 2>&1 || { echo "apt 失败, �
 
 echo "== 2/4 部署 DKMS 源码并编译安装"
 install -d /usr/src/iwlwifi-ampdu-tune-6.8
-cp -a "$SRC/dkms-src/iwlwifi-ampdu-tune-6.8/." /usr/src/iwlwifi-ampdu-tune-6.8/
+TREE=/home/etworker/driver/iwlwifi/src/dkms-src/iwlwifi-ampdu-tune-6.8
+if [ ! -f "$TREE/Makefile" ]; then
+  echo "   源码树缺失, 自动下载 vanilla 6.8 并打补丁..."
+  mkdir -p "$TREE"
+  curl -sL -o /tmp/linux-6.8.tar.xz https://mirrors.tuna.tsinghua.edu.cn/kernel/v6.x/linux-6.8.tar.xz
+  tar -xf /tmp/linux-6.8.tar.xz -C "$TREE" --strip-components=6 linux-6.8/drivers/net/wireless/intel/iwlwifi
+  python3 /home/etworker/driver/iwlwifi/src/apply-ampdu-patch.py "$TREE"
+fi
+cp -a "$TREE/." /usr/src/iwlwifi-ampdu-tune-6.8/
 cp "$SRC/dkms.conf" /usr/src/iwlwifi-ampdu-tune-6.8/dkms.conf
 dkms remove -m iwlwifi-ampdu-tune -v 6.8 --all >/dev/null 2>&1 || true
 dkms add -m iwlwifi-ampdu-tune -v 6.8

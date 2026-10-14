@@ -1,0 +1,84 @@
+diff -ruN a/dvm/Makefile b/dvm/Makefile
+--- a/dvm/Makefile	2026-10-14 10:39:30.561753322 +0800
++++ b/dvm/Makefile	2026-10-14 10:39:30.581752642 +0800
+@@ -11,4 +11,4 @@
+ iwldvm-$(CONFIG_IWLWIFI_LEDS) += led.o
+ iwldvm-$(CONFIG_IWLWIFI_DEBUGFS) += debugfs.o
+ 
+-ccflags-y += -I $(srctree)/$(src)/../
++ccflags-y += -I$(src)/../
+diff -ruN a/iwl-eeprom-parse.c b/iwl-eeprom-parse.c
+--- a/iwl-eeprom-parse.c	2026-10-14 10:39:30.568753084 +0800
++++ b/iwl-eeprom-parse.c	2026-10-14 10:39:30.586752473 +0800
+@@ -717,8 +717,17 @@
+ 	    iwlwifi_mod_params.amsdu_size >= IWL_AMSDU_8K)
+ 		ht_info->cap |= IEEE80211_HT_CAP_MAX_AMSDU;
+ 
+-	ht_info->ampdu_factor = IEEE80211_HT_MAX_AMPDU_64K;
+-	ht_info->ampdu_density = IEEE80211_HT_MPDU_DENSITY_4;
++	{
++		extern int ampdu_len_exp_max;
++		extern int ampdu_density_min;
++		ht_info->ampdu_factor = IEEE80211_HT_MAX_AMPDU_64K;
++		if (ampdu_len_exp_max >= 0 && ampdu_len_exp_max < 3)
++			ht_info->ampdu_factor = ampdu_len_exp_max;
++		ht_info->ampdu_density = IEEE80211_HT_MPDU_DENSITY_4;
++		if (ampdu_density_min >= 0 && ampdu_density_min <= 7 &&
++		    ampdu_density_min > ht_info->ampdu_density)
++			ht_info->ampdu_density = ampdu_density_min;
++	}
+ 
+ 	ht_info->mcs.rx_mask[0] = 0xFF;
+ 	ht_info->mcs.rx_mask[1] = 0x00;
+diff -ruN a/iwl-nvm-parse.c b/iwl-nvm-parse.c
+--- a/iwl-nvm-parse.c	2026-10-14 10:39:30.568753084 +0800
++++ b/iwl-nvm-parse.c	2026-10-14 10:39:30.587752439 +0800
+@@ -480,6 +480,17 @@
+ 	return n_channels;
+ }
+ 
++/* --- ampdu-tune begin --- */
++#include <linux/module.h>
++int ampdu_len_exp_max = -1;
++module_param(ampdu_len_exp_max, int, 0444);
++MODULE_PARM_DESC(ampdu_len_exp_max,
++		 "clamp max A-MPDU length exponent (0=8K,1=16K,2=32K,3=64K; -1=no clamp)");
++int ampdu_density_min = -1;
++module_param(ampdu_density_min, int, 0444);
++MODULE_PARM_DESC(ampdu_density_min,
++		 "raise HT A-MPDU density (0..7, higher = more spacing; -1 = no change)");
++/* --- ampdu-tune end --- */
+ static void iwl_init_vht_hw_capab(struct iwl_trans *trans,
+ 				  struct iwl_nvm_data *data,
+ 				  struct ieee80211_sta_vht_cap *vht_cap,
+@@ -498,6 +509,12 @@
+ 		       IEEE80211_VHT_MAX_AMPDU_1024K <<
+ 		       IEEE80211_VHT_CAP_MAX_A_MPDU_LENGTH_EXPONENT_SHIFT;
+ 
++	if (ampdu_len_exp_max >= 0 && ampdu_len_exp_max < 7) {
++		vht_cap->cap &= ~IEEE80211_VHT_CAP_MAX_A_MPDU_LENGTH_EXPONENT_MASK;
++		vht_cap->cap |= (u32)ampdu_len_exp_max <<
++			IEEE80211_VHT_CAP_MAX_A_MPDU_LENGTH_EXPONENT_SHIFT;
++	}
++
+ 	if (!trans->cfg->ht_params->stbc)
+ 		vht_cap->cap &= ~IEEE80211_VHT_CAP_RXSTBC_MASK;
+ 
+diff -ruN a/mei/Makefile b/mei/Makefile
+--- a/mei/Makefile	2026-10-14 10:39:30.569753050 +0800
++++ b/mei/Makefile	2026-10-14 10:39:30.587752439 +0800
+@@ -5,4 +5,4 @@
+ iwlmei-$(CONFIG_IWLWIFI_DEVICE_TRACING) += trace.o
+ CFLAGS_trace.o := -I$(src)
+ 
+-ccflags-y += -I $(srctree)/$(src)/../
++ccflags-y += -I$(src)/../
+diff -ruN a/mvm/Makefile b/mvm/Makefile
+--- a/mvm/Makefile	2026-10-14 10:39:30.570753016 +0800
++++ b/mvm/Makefile	2026-10-14 10:39:30.588752405 +0800
+@@ -15,4 +15,4 @@
+ iwlmvm-$(CONFIG_PM) += d3.o
+ iwlmvm-$(CONFIG_IWLMEI) += vendor-cmd.o
+ 
+-ccflags-y += -I $(srctree)/$(src)/../
++ccflags-y += -I$(src)/../

@@ -14,7 +14,7 @@ AC 7260 固件崩溃问题（2026-10-10/11）的完整工作区：诊断 → 实
 │   └── README.md                 ← 引用索引（每条引用 ↔ 证据文件对照）
 ├── logs/                         ← 全部运行日志（watch/safeguard/压测/实验）
 ├── scripts/                      ← 运维与实验脚本（见下表）
-├── src/                          ← DKMS 补丁源码（dkms-src/ 含已应用补丁的 iwlwifi 6.8 子树）
+├── src/                          ← A-MPDU 补丁: iwlwifi-ampdu-tune.patch + 幂等补丁器（源码树不入库，见 src/README.md）
 │   ├── dkms.conf                 ← DKMS 配置（包名 iwlwifi-ampdu-tune/6.8）
 │   ├── apply-ampdu-patch.py      ← 幂等补丁器
 │   └── minmod-test/              ← 最小模块对照实验（BTF 定位用）

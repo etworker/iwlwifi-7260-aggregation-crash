@@ -286,3 +286,10 @@ cat /sys/module/iwlwifi/parameters/11n_disable    # 6 = 禁聚合生效
 正文里的〔证据: 文件名〕都在 `ref/logs/`（21 个），外部引用原文在 `ref/`，对照索引见 `ref/README.md`。图 1~4 由这些存档数据绘制，脚本 `scripts/gen-charts.py`。
 
 （我家路由器就是小米 AX6000，文中只说这一台设备的事，不评价任何品牌。）
+
+### 仓库内容导航
+
+- `scripts/` — 正文用到的全部脚本：`stress.sh`（压测）、`wifi-watch.sh`/`wifi-safeguard.sh`（自动兜底，部署方式见内）、`scripts/install-ampdu-experiment.sh`（DKMS 实验环境一键部署）
+- `ref/` — 外部引用存档 [1]~[6] 与本机日志证据（`ref/README.md` 为对照索引）
+- `src/` — A-MPDU 可调参数补丁（DKMS 源码树按 `src/README.md` 重建）
+- `docs/WORKSPACE.md` — 工作区目录导览；`docs/REDACTION.md` — 脱敏规范

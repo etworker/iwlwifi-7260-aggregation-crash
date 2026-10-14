@@ -31,3 +31,6 @@ __pycache__/
 
 # ── DKMS 源码树(体积大且可由 patch 重建, 不入库) ──
 /src/dkms-src/
+
+# ── 导出产物 ──
+/out/

@@ -207,7 +207,9 @@ kernel: module xxx: .gnu.linkonce.this_module section size must match
 
 ## 八、结论：聚合开启的每一档都不可用，定版方案为全关
 
-九种配置（含历史原生形态）的完整矩阵：
+九种配置（含历史原生形态）的完整矩阵（图 3）：
+
+![图3](article-figs/fig3-matrix.png)
 
 | 配置 | 结果 | 证据 |
 |---|---|---|
